@@ -1,0 +1,30 @@
+/ This is a comment
+
+/* This is a
+   multi-line comment */
+
+/* This is another
+   multi-line comment
+   that spans multiple lines */
+
+int num1 = 42;
+double num2 = 3.14;
+String message = "Hello, world!";
+char letter = 'a';
+boolean is_true = true;
+
+if (num1 > 0) {
+    System.out.println("num1 is positive");
+} else if (num1 < 0) {
+    System.out.println("num1 is negative");
+} else {
+    System.out.println("num1 is zero");
+}
+
+for (int i = 0; i < 10; i++) {
+    System.out.println("i is " + i);
+}
+
+while (num2 > 0) {
+    num2 = num2 - 1;
+}
